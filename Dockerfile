@@ -14,3 +14,4 @@ CMD ["./go-auth-api"]
 
 
 
+

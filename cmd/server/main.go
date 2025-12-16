@@ -46,6 +46,7 @@ func main() {
 	http.HandleFunc("/api/auth/verify-email", loggingMiddleware(verifyEmailHandler))
 	http.HandleFunc("/api/auth/logout", loggingMiddleware(authMiddleware(logoutHandler)))
 	http.HandleFunc("/api/users/me", loggingMiddleware(authMiddleware(meHandler)))
+	http.HandleFunc("/api/users/profile", loggingMiddleware(authMiddleware(updateProfileHandler)))
 	http.HandleFunc("/health", healthHandler)
 
 	fmt.Println("Go Auth API running on :8080")
