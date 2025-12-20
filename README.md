@@ -425,3 +425,12 @@ docker run -p 8080:8080 go-auth-api
 - [ ] Audit logging
 - [ ] Role-based access control (RBAC)
 - [ ] API key management
+
+## AI/NLP Capabilities
+
+This project includes AI and NLP utilities for:
+- Text processing and tokenization
+- Similarity calculation
+- Natural language understanding
+
+*Last updated: 2025-12-20*
